@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>85E13EAB-6EE3-45CE-A5FB-A137427FA1E3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>IoT Buddy</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>988A4980-6D0C-467D-BDE5-6887724E7595</key>
+		<string>https://github.com/peterparnes/IoT-Buddy.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>IoT Buddy.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>988A4980-6D0C-467D-BDE5-6887724E7595</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/peterparnes/IoT-Buddy.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>988A4980-6D0C-467D-BDE5-6887724E7595</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>988A4980-6D0C-467D-BDE5-6887724E7595</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IoT-Buddy</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -17,63 +17,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self loadUserEnteredInfo];
-    [_switchOne setOn:NO];
-    [_switchTwo setOn:NO];
+    
+    impURL = @""; // Set electric imp URL here
 	// Do any additional setup after loading the view, typically from a nib.
 }
 - (void)viewWillAppear:(BOOL)animated;
 {
-    [self loadUserEnteredInfo];
 }
-- (void)loadUserEnteredInfo;
-{
-    // load any values previously inputed from the user
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    impURL = [defaults objectForKey:@"IMP URL"];
-    buttonOneName = [defaults objectForKey:@"Button One Name"];
-    [_buttonOne setTitle:buttonOneName forState:UIControlStateNormal];
-    buttonOneValue = [defaults objectForKey:@"Button One Value"];
-    buttonTwoName = [defaults objectForKey:@"Button Two Name"];
-    [_buttonTwo setTitle:buttonTwoName forState:UIControlStateNormal];
-    buttonTwoValue = [defaults objectForKey:@"Button Two Value"];
-    switchOneName = [defaults objectForKey:@"Switch One Name"];
-    [_switchOneLabel setText:switchOneName];
-    switchOneOnValue = [defaults objectForKey:@"Switch One On Value"];
-    switchOneOffValue = [defaults objectForKey:@"Switch One Off Value"];
-    switchTwoName = [defaults objectForKey:@"Switch Two Name"];
-    [_switchTwoLabel setText:switchTwoName];
-    switchTwoOnValue = [defaults objectForKey:@"Switch Two On Value"];
-    switchTwoOffValue = [defaults objectForKey:@"Switch Two Off Value"];
-    
-    
-}
+
 - (IBAction)buttonOnePressed:(id)sender;
 {
-    [self sendIMPURL:(impURL)withParams:(buttonOneValue)];
+    [self sendIMPURL:(impURL)withParams:@""];
 }
-- (IBAction)buttonTwoPressed:(id)sender;
-{
-    [self sendIMPURL:(impURL) withParams:(buttonTwoValue)];
-}
-- (IBAction)switchOneToggled:(id)sender;
-{
-    if (_switchOne.on) {
-        [self sendIMPURL:(impURL) withParams:switchOneOnValue];
-    }
-    else {
-        [self sendIMPURL:(impURL) withParams:switchOneOffValue];
-    }
-}
-- (IBAction)switchTwoToggled:(id)sender;
-{
-    if (_switchTwo.on) {
-        [self sendIMPURL:(impURL) withParams:switchTwoOnValue];
-    }
-    else {
-        [self sendIMPURL:(impURL) withParams:switchTwoOffValue];
-    }
-}
+
 -(void)sendIMPURL: (NSString *) url withParams: (NSString *) params;
 {
     
@@ -139,19 +95,6 @@
      
      [[error userInfo] objectForKey:NSURLErrorFailingURLStringErrorKey]);
      */
-}
-#pragma mark - Flipside View
-
-- (void)flipsideViewControllerDidFinish:(FlipsideViewController *)controller
-{
-    [self dismissViewControllerAnimated:YES completion:nil];
-}
-
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    if ([[segue identifier] isEqualToString:@"showAlternate"]) {
-        [[segue destinationViewController] setDelegate:self];
-    }
 }
 
 @end

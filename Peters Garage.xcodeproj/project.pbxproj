@@ -62,14 +62,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7DA100B01791C055007CF932 /* IoT Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IoT Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DA100B01791C055007CF932 /* Peters Garage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Peters Garage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA100B31791C055007CF932 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7DA100B51791C055007CF932 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7DA100B71791C055007CF932 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7DA100BB1791C055007CF932 /* IoT Buddy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IoT Buddy-Info.plist"; sourceTree = "<group>"; };
+		7DA100BB1791C055007CF932 /* Peters Garage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Peters Garage-Info.plist"; sourceTree = "<group>"; };
 		7DA100BD1791C055007CF932 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7DA100BF1791C055007CF932 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7DA100C11791C055007CF932 /* IoT Buddy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IoT Buddy-Prefix.pch"; sourceTree = "<group>"; };
+		7DA100C11791C055007CF932 /* Peters Garage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Peters Garage-Prefix.pch"; sourceTree = "<group>"; };
 		7DA100C21791C055007CF932 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7DA100C31791C055007CF932 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7DA100C51791C055007CF932 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -160,7 +160,7 @@
 		7DA100B11791C055007CF932 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7DA100B01791C055007CF932 /* IoT Buddy.app */,
+				7DA100B01791C055007CF932 /* Peters Garage.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -195,10 +195,10 @@
 		7DA100BA1791C055007CF932 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7DA100BB1791C055007CF932 /* IoT Buddy-Info.plist */,
+				7DA100BB1791C055007CF932 /* Peters Garage-Info.plist */,
 				7DA100BC1791C055007CF932 /* InfoPlist.strings */,
 				7DA100BF1791C055007CF932 /* main.m */,
-				7DA100C11791C055007CF932 /* IoT Buddy-Prefix.pch */,
+				7DA100C11791C055007CF932 /* Peters Garage-Prefix.pch */,
 				7DA100C51791C055007CF932 /* Default.png */,
 				7DA100C71791C055007CF932 /* Default@2x.png */,
 				7DA100C91791C056007CF932 /* Default-568h@2x.png */,
@@ -277,9 +277,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7DA100AF1791C055007CF932 /* IoT Buddy */ = {
+		7DA100AF1791C055007CF932 /* Peters Garage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7DA100D61791C056007CF932 /* Build configuration list for PBXNativeTarget "IoT Buddy" */;
+			buildConfigurationList = 7DA100D61791C056007CF932 /* Build configuration list for PBXNativeTarget "Peters Garage" */;
 			buildPhases = (
 				7DA100AC1791C055007CF932 /* Sources */,
 				7DA100AD1791C055007CF932 /* Frameworks */,
@@ -289,9 +289,9 @@
 			);
 			dependencies = (
 			);
-			name = "IoT Buddy";
+			name = "Peters Garage";
 			productName = "IoT Buddy";
-			productReference = 7DA100B01791C055007CF932 /* IoT Buddy.app */;
+			productReference = 7DA100B01791C055007CF932 /* Peters Garage.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -301,9 +301,9 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0460;
-				ORGANIZATIONNAME = "Joel Wehr";
+				ORGANIZATIONNAME = "Peter Parnes";
 			};
-			buildConfigurationList = 7DA100AB1791C055007CF932 /* Build configuration list for PBXProject "IoT Buddy" */;
+			buildConfigurationList = 7DA100AB1791C055007CF932 /* Build configuration list for PBXProject "Peters Garage" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -315,7 +315,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7DA100AF1791C055007CF932 /* IoT Buddy */,
+				7DA100AF1791C055007CF932 /* Peters Garage */,
 			);
 		};
 /* End PBXProject section */
@@ -474,12 +474,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "IoT Buddy/IoT Buddy-Prefix.pch";
-				INFOPLIST_FILE = "IoT Buddy/IoT Buddy-Info.plist";
+				GCC_PREFIX_HEADER = "IoT Buddy/Peters Garage-Prefix.pch";
+				INFOPLIST_FILE = "IoT Buddy/Peters Garage-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -487,12 +489,14 @@
 		7DA100D81791C056007CF932 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "IoT Buddy/IoT Buddy-Prefix.pch";
-				INFOPLIST_FILE = "IoT Buddy/IoT Buddy-Info.plist";
+				GCC_PREFIX_HEADER = "IoT Buddy/Peters Garage-Prefix.pch";
+				INFOPLIST_FILE = "IoT Buddy/Peters Garage-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -501,7 +505,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7DA100AB1791C055007CF932 /* Build configuration list for PBXProject "IoT Buddy" */ = {
+		7DA100AB1791C055007CF932 /* Build configuration list for PBXProject "Peters Garage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7DA100D41791C056007CF932 /* Debug */,
@@ -510,7 +514,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7DA100D61791C056007CF932 /* Build configuration list for PBXNativeTarget "IoT Buddy" */ = {
+		7DA100D61791C056007CF932 /* Build configuration list for PBXNativeTarget "Peters Garage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7DA100D71791C056007CF932 /* Debug */,

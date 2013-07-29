@@ -27,8 +27,14 @@
 
 - (IBAction)buttonOnePressed:(id)sender;
 {
-    [self sendIMPURL:(impURL)withParams:@""];
+    [self sendIMPURL:(impURL)withParams:@"0"];
 }
+
+- (IBAction)buttonTwoPressed:(id)sender;
+{
+    [self sendIMPURL:(impURL)withParams:@"1"];
+}
+
 
 -(void)sendIMPURL: (NSString *) url withParams: (NSString *) params;
 {

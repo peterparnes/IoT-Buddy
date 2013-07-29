@@ -20,7 +20,11 @@
 
 //@property (nonatomic, retain) IBOutlet UILabel *httpResponseLabel;
 @property (nonatomic, weak) IBOutlet UIButton *buttonOne;
+@property (nonatomic, weak) IBOutlet UIButton *buttonTwo;
+
 
 - (IBAction)buttonOnePressed:(id)sender;
+- (IBAction)buttonTwoPressed:(id)sender;
+
 
 @end

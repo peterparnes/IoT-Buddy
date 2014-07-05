@@ -40,7 +40,7 @@
 -(void)sendIMPURL: (NSString *) params;
 {
     NSString *url = [NSString stringWithFormat:@"%@?relay=%@", impURL, params];
-    NSLog(@"%@", url);
+    // NSLog(@"%@", url);
     responseData = [[NSMutableData data] init];
     request = [NSMutableURLRequest
                requestWithURL:[NSURL URLWithString:(url)]];
@@ -54,7 +54,7 @@
                                                  delegate:self
                                          startImmediately:YES];
     //[_httpResponseLabel setText:[NSString stringWithFormat:@"%@",request]];
-    NSLog(@"%@", [NSString stringWithFormat:@"%@",request]);
+    // NSLog(@"%@", [NSString stringWithFormat:@"%@",request]);
     
     
 }

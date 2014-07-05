@@ -62,7 +62,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7DA100B01791C055007CF932 /* Peters Garage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Peters Garage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DA100B01791C055007CF932 /* Peter's Garage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Peter's Garage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA100B31791C055007CF932 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7DA100B51791C055007CF932 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7DA100B71791C055007CF932 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -160,7 +160,7 @@
 		7DA100B11791C055007CF932 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7DA100B01791C055007CF932 /* Peters Garage.app */,
+				7DA100B01791C055007CF932 /* Peter's Garage.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -277,9 +277,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7DA100AF1791C055007CF932 /* Peters Garage */ = {
+		7DA100AF1791C055007CF932 /* Peter's Garage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7DA100D61791C056007CF932 /* Build configuration list for PBXNativeTarget "Peters Garage" */;
+			buildConfigurationList = 7DA100D61791C056007CF932 /* Build configuration list for PBXNativeTarget "Peter's Garage" */;
 			buildPhases = (
 				7DA100AC1791C055007CF932 /* Sources */,
 				7DA100AD1791C055007CF932 /* Frameworks */,
@@ -289,9 +289,9 @@
 			);
 			dependencies = (
 			);
-			name = "Peters Garage";
+			name = "Peter's Garage";
 			productName = "IoT Buddy";
-			productReference = 7DA100B01791C055007CF932 /* Peters Garage.app */;
+			productReference = 7DA100B01791C055007CF932 /* Peter's Garage.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -315,7 +315,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7DA100AF1791C055007CF932 /* Peters Garage */,
+				7DA100AF1791C055007CF932 /* Peter's Garage */,
 			);
 		};
 /* End PBXProject section */
@@ -514,7 +514,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7DA100D61791C056007CF932 /* Build configuration list for PBXNativeTarget "Peters Garage" */ = {
+		7DA100D61791C056007CF932 /* Build configuration list for PBXNativeTarget "Peter's Garage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7DA100D71791C056007CF932 /* Debug */,

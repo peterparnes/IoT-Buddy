@@ -18,41 +18,43 @@
 {
     [super viewDidLoad];
     
-    impURL = @""; // Set electric imp URL here
+    impURL = @"https://agent.electricimp.com/XXX"; // Set electric imp URL here
 	// Do any additional setup after loading the view, typically from a nib.
 }
 - (void)viewWillAppear:(BOOL)animated;
 {
+   // [self sendIMPURL:(impURL)withParams:@"1"];
 }
 
 - (IBAction)buttonOnePressed:(id)sender;
 {
-    [self sendIMPURL:(impURL)withParams:@"0"];
+    [self sendIMPURL:@"0"];
 }
 
 - (IBAction)buttonTwoPressed:(id)sender;
 {
-    [self sendIMPURL:(impURL)withParams:@"1"];
+    [self sendIMPURL:@"1"];
 }
 
 
--(void)sendIMPURL: (NSString *) url withParams: (NSString *) params;
+-(void)sendIMPURL: (NSString *) params;
 {
-    
-    NSString *parameters = [NSString stringWithFormat:@"value=%@", params];
-    NSLog(@"%@", parameters);
+    NSString *url = [NSString stringWithFormat:@"%@?relay=%@", impURL, params];
+    NSLog(@"%@", url);
     responseData = [[NSMutableData data] init];
     request = [NSMutableURLRequest
                requestWithURL:[NSURL URLWithString:(url)]];
     
-    // HTTP request type
-    [request setHTTPMethod:@"POST"];
     
-    [request setHTTPBody:[parameters dataUsingEncoding:NSUTF8StringEncoding]];
+    // HTTP request type
+    [request setHTTPMethod:@"GET"];
+    
+    // [request setHTTPBody:[parameters dataUsingEncoding:NSUTF8StringEncoding]];
     connection = [[NSURLConnection alloc] initWithRequest:request
                                                  delegate:self
                                          startImmediately:YES];
     //[_httpResponseLabel setText:[NSString stringWithFormat:@"%@",request]];
+    NSLog(@"%@", [NSString stringWithFormat:@"%@",request]);
     
     
 }
@@ -94,13 +96,12 @@
     // inform the user
     //[_httpResponseLabel setText:@"Error"];
     
-    /*
      NSLog(@"Connection failed! Error - %@ %@",
      
      [error localizedDescription],
      
      [[error userInfo] objectForKey:NSURLErrorFailingURLStringErrorKey]);
-     */
+    
 }
 
 @end

@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7DA100AF1791C055007CF932"
-               BuildableName = "Peters Garage.app"
-               BlueprintName = "Peters Garage"
+               BuildableName = "Peter&apos;s Garage.app"
+               BlueprintName = "Peter&apos;s Garage"
                ReferencedContainer = "container:Peters Garage.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7DA100AF1791C055007CF932"
-            BuildableName = "Peters Garage.app"
-            BlueprintName = "Peters Garage"
+            BuildableName = "Peter&apos;s Garage.app"
+            BlueprintName = "Peter&apos;s Garage"
             ReferencedContainer = "container:Peters Garage.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -52,8 +52,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7DA100AF1791C055007CF932"
-            BuildableName = "Peters Garage.app"
-            BlueprintName = "Peters Garage"
+            BuildableName = "Peter&apos;s Garage.app"
+            BlueprintName = "Peter&apos;s Garage"
             ReferencedContainer = "container:Peters Garage.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -70,8 +70,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7DA100AF1791C055007CF932"
-            BuildableName = "Peters Garage.app"
-            BlueprintName = "Peters Garage"
+            BuildableName = "Peter&apos;s Garage.app"
+            BlueprintName = "Peter&apos;s Garage"
             ReferencedContainer = "container:Peters Garage.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

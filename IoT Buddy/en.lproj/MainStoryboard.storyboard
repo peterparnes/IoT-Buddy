@@ -14,8 +14,8 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A0w-Ba-lqT" customClass="ColoredButtonBlack">
                                 <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="UI2-Ek-p6e"/>
                                     <constraint firstAttribute="width" constant="257" id="s8R-aa-nFY"/>
-                                    <constraint firstAttribute="height" constant="150" id="sgG-XI-Imc"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="60"/>
                                 <state key="normal" title="Open">
@@ -31,7 +31,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hfy-Lv-Znt" customClass="ColoredButtonBlack">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="Tzk-bM-b6y"/>
+                                    <constraint firstAttribute="height" constant="100" id="SCk-e3-pbC"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="60"/>
                                 <state key="normal" title="Close">
@@ -45,7 +45,7 @@
                                     <action selector="buttonTwoPressed:" destination="2" eventType="touchUpInside" id="iiN-7p-T9i"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Peters Garage" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ysh-ZH-eWN">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Peter's Garage" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ysh-ZH-eWN">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="282" id="VG1-8x-tX1"/>
                                     <constraint firstAttribute="height" constant="104" id="vDy-c0-kK7"/>
@@ -57,8 +57,8 @@
                         </subviews>
                         <color key="backgroundColor" red="0.58823531866073608" green="0.090196080505847931" blue="0.19215688109397888" alpha="1" colorSpace="deviceRGB"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="Hfy-Lv-Znt" secondAttribute="bottom" constant="71" id="1fM-h8-axc"/>
-                            <constraint firstItem="A0w-Ba-lqT" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="4dR-8X-dyr"/>
+                            <constraint firstItem="Hfy-Lv-Znt" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="A8y-bc-8Hk"/>
+                            <constraint firstAttribute="bottom" secondItem="Hfy-Lv-Znt" secondAttribute="bottom" constant="127" id="XM2-l1-Kwy"/>
                             <constraint firstItem="Hfy-Lv-Znt" firstAttribute="trailing" secondItem="A0w-Ba-lqT" secondAttribute="trailing" type="default" id="Yyn-Xq-cTZ"/>
                             <constraint firstItem="ysh-ZH-eWN" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="d5c-iB-KCH"/>
                             <constraint firstItem="ysh-ZH-eWN" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="lWr-rf-wRc"/>
